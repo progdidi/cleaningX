@@ -1,0 +1,27 @@
+.covid {
+    
+    color: #fff;
+    margin-bottom: 200px;
+    &__inner {
+        display: flex;
+        align-items: center;
+        background-color: var(--dark-blue-color);
+        .covid__img {
+        }
+        .covid__info {
+            max-width: 556px;
+            &-subtitle {
+                color: #fff;
+                margin-bottom: 17px;
+            }
+            &-title {
+                color: #fff;
+                margin-bottom: 18px;
+            }
+            &-text {
+                margin-bottom: 12px;
+            }
+        }
+    }
+}
+
