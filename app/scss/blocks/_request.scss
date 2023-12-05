@@ -1,0 +1,41 @@
+.request {
+    padding: 240px 0;
+    &__inner {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        gap: 60px;
+        .request__info {
+            .request__info-title {
+                margin-bottom: 8px;
+            }
+            .request__info-text {
+                margin-bottom: 12px;
+            }
+            .request__info-link {
+                padding-bottom: 51px;
+                margin-bottom: 55px;
+            }
+            .request__info-subtitle {
+                margin-bottom: 9px;
+            }
+            .request__info-btn {
+                margin-top: 9px;
+            }
+        }
+        
+        .request__form {
+            padding: 85px 61px 85px 61px;
+            width: 673px;
+            .request__form-label {
+            }
+            .request__form-input {
+            }
+            .request__form-text {
+            }
+            .request__form-btn {
+            }
+        }
+    }
+}
+
