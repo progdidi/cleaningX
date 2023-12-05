@@ -1,0 +1,34 @@
+.services {
+    &__top {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-bottom: 62px;
+        .services__title {
+        }
+        .services__btn {
+        }
+    }
+
+    &__inner {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        .services__item {
+            padding: 49px 38px 24px 38px;
+            &-img {
+                margin-bottom: 24px;
+            }
+            &-title {
+                margin-bottom: 13px;
+            }
+            &-text {
+            }
+        }
+    }
+}
+
+
+
+
+
