@@ -1,10 +1,10 @@
 .covid {
-    
     color: #fff;
     margin-bottom: 200px;
     &__inner {
         display: flex;
         align-items: center;
+        gap: 72px;
         background-color: var(--dark-blue-color);
         .covid__img {
         }

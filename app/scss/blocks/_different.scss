@@ -1,0 +1,41 @@
+.different {
+    padding-bottom: 200px;
+    margin-bottom: 240px;
+    &__inner {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        gap: 20px;
+        .different__info {
+            &-title {
+                max-width: 346px;
+                margin-bottom: 19px;
+            }
+            &-text {
+                margin-bottom: 15px;
+            }
+            .different__items {
+                margin-top: 27px;
+                display: flex;
+                align-items: center;
+                gap: 58px;
+                margin-bottom: 48px;
+                .different__item {
+                    &-num {
+                    }
+                    &-plus {
+                    }
+                    &-text {
+                    }
+                }
+            }
+            
+            .different__btn {
+            }
+        }
+        
+        .different__img {
+        }
+    }
+    
+}

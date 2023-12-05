@@ -1,0 +1,53 @@
+.areas {
+    margin-bottom: 224px;
+    &__inner {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        gap: 80px;
+        .areas__img {
+        }
+        .areas__info {
+            &-title {
+                margin-bottom: 19px;
+            }
+            &-text {
+                margin-bottom: 26px;
+            }
+            .areas__lists {
+                display: flex;
+                margin-bottom: 54px;
+                gap: 56px;
+                .areas__list {
+                    display: flex;
+                    flex-direction: column;
+                    gap: 24px;
+                    &-item {
+                        position: relative;
+                        padding-left: 34px;
+                        &::before {
+                            position: absolute;
+                            content: '';
+                            background-image: url(../../images/mark.svg);
+                            background-repeat: no-repeat;
+                            background-position: center center;
+                            background-color: var(--grey-color);
+                            width: 26px;
+                            height: 26px;
+                            border-radius: 50%;
+                            top: 50%;
+                            left: 0;
+                            transform: translateY(-50%);
+                        }
+                    }
+                }
+            }
+            
+            
+            .areas__button {
+            }
+        }
+    }
+    
+}
+
