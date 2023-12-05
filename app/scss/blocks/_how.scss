@@ -1,0 +1,42 @@
+.how {
+    text-align: center;
+    padding-bottom: 240px;
+    margin-bottom: 240px;
+    &__title {
+        margin-bottom: 21px;
+    }
+    &__text {
+        margin-bottom: 58px;
+    }
+    &__inner {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-bottom: 58px;
+        .how__item {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            &-img {
+                margin-bottom: 39px;
+            }
+            &-title {
+                margin-bottom: 16px;
+            }
+            &-text {
+            }
+        }
+    }
+    
+    
+    &__buttons {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 28px;
+        .how__btn {
+        }
+    }
+}
+

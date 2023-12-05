@@ -57,6 +57,13 @@ h1, h2, h3, h4, h5, h6 {
     }
 }
 
+.section__title {
+    color: #211F54;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 58px;
+}
+
 @media (max-width: 650px) {
     .active-btn {
         padding: 10px 12px;
