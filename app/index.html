@@ -4,14 +4,65 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Cleaning X</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/style.min.css">
 </head>
 <body>
 
-    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci atque optio, fuga voluptates ullam, esse debitis iure numquam, velit architecto consequuntur. Ab obcaecati consectetur laudantium saepe vero, aperiam tempore fugit.</p>
+    <header class="header">
+        <div class="container">
+            <div class="header__top">
+                <nav class="menu">
+                    <a href="#" class="logo"><img src="images/logo.svg" alt="logo" class="logo__img"></a>
+                    <ul class="menu__list">
+                        <li class="menu__list-item"><a href="" class="menu__list-link">Home</a></li>
+                        <li class="menu__list-item"><a href="" class="menu__list-link">About</a></li>
+                        <li class="menu__list-item"><a href="" class="menu__list-link">Services</a></li>
+                        <li class="menu__list-item"><a href="" class="menu__list-link">Pages</a></li>
+                        <li class="menu__list-item"><a href="" class="menu__list-link">Contact</a></li>
+                    </ul>
+                </nav>
+                
+                <div class="header__buttons">
+                    <button class="header__btn">Cart (<span>0</span>) </button>
+                    <button class="header__btn active-btn">Get a free quote</button>
+                </div>
+
+                <button class="menu-btn">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+            </div>
+
+            <div class="promo">
+                <div class="promo__info">
+                    <h1 class="promo__info-title">Quality cleaning for your home</h1>
+                    <p class="promo__info-text">Condimentum mauris sit cursus amet id non neque pharetra nulla ornare sed facilisis senectus dapibus nibh ultrices eget suscipit aliquet et nulla magna lacus penatibus.</p>
+
+                    <div class="promo__info-buttons">
+                        <button class="promo__btn active-btn">Get a free quote</button>
+                        <a href="tel:4145672109" class="promo__link">
+                            <img src="images/phone.svg" alt="call" class="promo__link-img">
+                            <p class="promo__link-text">Call us now</p>
+                            <p class="promo__link-num">(414) 567 - 2109</p>
+                        </a>
+                    </div>
+                </div>
+                <img src="images/promo.svg" alt="promo" class="promo__img">
+            </div>
+        </div>
+    </header>
+
+    <section class="how">
+        <div class="container">
+            <h3 class="how__title section__title">How our service works?</h3>
+        </div>
+    </section>
     
-    <!-- <script type="text/javascript" src="http://code.jquery.com/jquery-1.7.1.min.js"></script> -->
-    <script src="js/main.js"></script>
+    <script src="js/main.min.js"></script>
 </body>
 </html>
