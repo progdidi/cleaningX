@@ -1,0 +1,46 @@
+.comparison {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-bottom: 240px;
+    margin-bottom: 240px;
+    &__title {
+        margin-bottom: 13px;
+    }
+    &__text {
+        margin-bottom: 32px;
+    }
+    &__inner {
+        width: 750px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin: 0 auto;
+        margin-bottom: 40px;
+        .comparison__item {
+            display: flex;
+            gap: 16px;
+            align-items: center;
+            &-img {
+            }
+            &-info {
+                .comparison__item-text {
+                }
+                .comparison__item-num {
+                }
+            }
+            
+        }
+    }
+
+    &__video {
+        &-img {
+        }
+    }
+    
+}
+
+
+
+
