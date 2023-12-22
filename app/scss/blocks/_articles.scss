@@ -1,47 +1,144 @@
 .articles {
     padding-bottom: 240px;
     .articles__top {
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
         .articles__title {
         }
         .articles__text {
+            max-width: 474px;
         }
         .articles__buttons {
+            display: flex;
+            gap: 28px;
             .articles__btn {
+                padding: 26px 38px;
             }
         }
     }
     
     
     .articles__items {
-        display: flex;
-        align-items: center;
-        justify-content: space-between;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-column-gap: 28px;
         .articles__item {
-            max-width: 600px;
+            width: 100%;
             position: relative;
             .articles__item-img {
             }
             .articles__item-info {
-                max-width: 536px;
+                width: 90%;
+                margin: 0 auto;
                 padding: 52px 53px 49px 49px;
                 position: relative;
+                border-radius: 24px;
+                border: 1px solid #EFF0F6;
+                background: #FFF;
+                box-shadow: 0px 2px 6px 0px rgba(20, 20, 43, 0.04);
+                margin-top: -52px;
                 &::after {
                     position: absolute;
                     content: '';
                     background-color: var(--blue-color);
-                    width: 50px;
-                    height: 50px;
-                    bottom: 49px;
-                    right: 49px;
+                    width: 10%;
+                    height: 10%;
+                    bottom: 10%;
+                    right: 10%;
                 }
                 .articles__item-title {
+                    color: var(--dark-blue-color);
+                    font-size: 24px;
+                    font-weight: 700;
+                    line-height: 34.008px;
+                    margin-bottom: 17px;
                 }
                 .articles__item-text {
+                    color: var(--grey-color);
+                    font-size: 21px;
+                    font-weight: 400;
+                    line-height: 30.006px;
+                    margin-bottom: 10px;
                 }
                 .articles__item-date {
+                    color: var(--dark-blue-color);
+                    font-size: 18px;
+                    font-weight: 700;
+                    line-height: 19.998px;
                 }
             }
             
+        }
+    }
+}
+
+@media(max-width: 1000px) {
+    .articles {
+        .articles__top {
+            margin-bottom: 40px;
+            .articles__text {
+                max-width: 40%;
+            }
+            .articles__buttons {
+                .articles__btn {
+                    padding: 12px 20px;
+                }
+            }
+        }
+        .articles__items {
+            .articles__item {
+                .articles__item-info {
+                    padding: 8%;
+                }
+            }
+        }
+    }
+}
+
+@media(max-width: 860px) {
+    .articles {
+        .articles__top {
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            .articles__title {
+                margin-bottom: 40px;
+            }
+            .articles__text {
+                max-width: 70%;
+                text-align: center;
+            }
+            .articles__buttons {
+                margin-bottom: 40px;
+                
+            }
+        }
+    }
+}
+
+@media(max-width: 770px) {
+    .articles {
+        .articles__items {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            .articles__item {
+                width: 80%;
+                margin: 0 auto;
+                margin-bottom: 40px;
+            }
+        }
+    }
+}
+
+@media(max-width: 500px) {
+    .articles {
+        .articles__items {
+            .articles__item {
+                width: 90%;
+            }
         }
     }
 }
