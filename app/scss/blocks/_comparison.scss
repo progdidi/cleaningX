@@ -6,13 +6,17 @@
     padding-bottom: 240px;
     margin-bottom: 240px;
     &__title {
+        max-width: 608px;
+        margin: 0 auto;
         margin-bottom: 13px;
     }
-    &__text {
+    &__text {        
+        max-width: 702px;
+        margin: 0 auto;
         margin-bottom: 32px;
     }
     &__inner {
-        width: 750px;
+        max-width: 62%;
         display: flex;
         align-items: center;
         justify-content: space-between;
@@ -36,9 +40,67 @@
 
     &__video {
         &-img {
+            object-fit: cover;
         }
     }
     
+}
+
+@media(max-width: 1100px){
+    .comparison {
+        &__video {
+            &-img {
+                object-fit: cover;
+                max-width: 90%;
+                margin: 0 auto;
+            }
+        }
+    }
+}
+
+@media(max-width: 800px) {
+    .comparison {
+        &__title {
+            max-width: 85%;
+        }
+        &__text {
+            max-width: 80%;
+        }
+        &__inner {
+            max-width: 80%;
+        }
+    }
+}
+
+@media(max-width: 650px) {
+    .comparison {
+        &__title {
+            max-width: 90%;
+        }
+        &__text {
+            max-width: 90%;
+        }
+        &__inner {
+            max-width: 90%;
+        }
+
+        &__video {
+            &-img {
+                max-width: 90%;
+            }
+        }
+    }
+}
+
+@media (max-width: 550px) {
+    .comparison {
+        &__inner {
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            gap: 30px;
+        }
+    }
 }
 
 

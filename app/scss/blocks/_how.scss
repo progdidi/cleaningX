@@ -42,6 +42,8 @@
 
 @media (max-width: 1100px) {
     .how {
+        padding-bottom: 70px;
+        margin-bottom: 70px;
         &__inner {
             .how__item {
                 &-img {
@@ -82,8 +84,6 @@
 
 @media(max-width: 500px) {
     .how {
-        padding-bottom: 70px;
-        margin-bottom: 70px;
         &__buttons {
             flex-direction: column;
         }
