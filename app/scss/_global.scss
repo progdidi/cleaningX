@@ -149,6 +149,10 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 @media (max-width: 400px) {
+    .section__title {
+        font-size: 35px;
+        line-height: 44px;
+    }
     .phone-link {
         &-img {
             width: 42px;

@@ -2,12 +2,14 @@
     margin-bottom: 224px;
     &__inner {
         display: flex;
-        justify-content: space-between;
         align-items: center;
-        gap: 80px;
+        gap: 5%;
         .areas__img {
+            max-width: 48%;
         }
         .areas__info {
+            padding-top: 60px;
+            max-width: 48%;
             &-title {
                 margin-bottom: 19px;
             }
@@ -31,7 +33,7 @@
                             background-image: url(../../images/mark.svg);
                             background-repeat: no-repeat;
                             background-position: center center;
-                            background-color: var(--grey-color);
+                            background-color: #EDF5FF;
                             width: 26px;
                             height: 26px;
                             border-radius: 50%;
@@ -49,5 +51,91 @@
         }
     }
     
+}
+
+@media (max-width: 1000px) {
+    .areas {
+        &__inner {
+            .areas__img {
+                max-width: 40%;
+            }
+            .areas__info {
+                max-width: 55%;
+                &-title {
+                    font-size: 42px;
+                    line-height: 51px;
+                }
+                &-text {
+                   
+                }
+                .areas__lists {
+                    gap: 40px;
+                    margin-bottom: 30px;
+                    .areas__list {
+                        gap: 15px;
+                    }
+                }
+                
+            }
+        }
+        
+    }
+}
+
+@media (max-width: 760px) {
+    .areas {
+        &__inner {
+            flex-direction: column-reverse;
+            justify-content: center;
+            align-items: center;
+            .areas__img {
+                max-width: 60%;
+            }
+            .areas__info {
+                max-width: 90%;
+                &-title {
+                    font-size: 42px;
+                    line-height: 51px;
+                    text-align: center;
+                }
+                &-text {
+                    text-align: center;
+                }
+                .areas__lists {
+                    justify-content: center;
+                    margin-bottom: 40px;
+                    
+                }
+
+                .areas__button {
+                    display: block;
+                    width: 162px;
+                    margin: 0 auto;
+                    margin-bottom: 40px;
+                }
+                
+            }
+        }
+        
+    }
+}
+
+@media(max-width: 500px) {
+    .areas {
+        &__inner {
+            .areas__img {
+                max-width: 80%;
+            }
+            .areas__info {
+                &-title {
+                    font-size: 35px;
+                    line-height: 44px;
+                }
+                .areas__lists {
+                    gap: 30px;
+                }
+            }
+        }
+    }
 }
 
