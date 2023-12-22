@@ -1,4 +1,5 @@
 .request {
+    background-color: #F7F9FC;
     padding: 240px 0;
     &__inner {
         display: flex;
@@ -27,13 +28,46 @@
         .request__form {
             padding: 85px 61px 85px 61px;
             width: 673px;
-            .request__form-label {
+            background-color: #fff;
+            border-radius: 16px;
+            border: 1px solid #EFF0F6;
+            box-shadow: 0px 2px 6px 0px rgba(20, 20, 43, 0.04);
+            .request__form-data {
+                display: grid;
+                grid-template-columns: repeat(2, 1fr);
+                grid-column-gap: 33px;
+                grid-row-gap: 32px;
+                .request__form-label {
+                    color: var(--dark-blue-color);
+                    font-size: 18px;
+                    line-height: 31px;
+                    margin-bottom: 12px;
+                    &.note {
+                        grid-column: 1/3;
+                    }
+                }
+                .request__form-input {
+                    display: block;
+                    border-radius: 16px;
+                    border: 1px solid #EFF0F6;
+                    box-shadow: 0px 2px 12px 0px rgba(20, 20, 43, 0.08);
+                    padding: 5px;
+                    width: 259px;
+                    height: 72px;
+                }
+                .request__form-text {
+                    display: block;
+                    width: 100%;
+                    border-radius: 16px;
+                    border: 1px solid #EFF0F6;
+                    box-shadow: 0px 2px 12px 0px rgba(20, 20, 43, 0.08);
+                    padding: 5px;
+                    margin-bottom: 42px;
+                }
             }
-            .request__form-input {
-            }
-            .request__form-text {
-            }
+            
             .request__form-btn {
+                display: block;
             }
         }
     }
