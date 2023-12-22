@@ -64,8 +64,26 @@ h1, h2, h3, h4, h5, h6 {
     line-height: 58px;
 }
 
+.white-btn {
+    border-radius: 14px;
+    border: 1px solid #EFF0F6;
+    box-shadow: 0px 4px 10px 0px rgba(20, 20, 43, 0.04);
+    padding: 26px 39px;
+}
+
 @media (max-width: 650px) {
     .active-btn {
-        padding: 10px 12px;
+        padding: 12px 16px;
+    }
+
+    .white-btn {
+        padding: 12px 16px;
+    }
+}
+
+@media (max-width: 500px) {
+    .section__title {
+        font-size: 40px;
+        line-height: 48px;
     }
 }

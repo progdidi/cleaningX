@@ -40,3 +40,52 @@
     }
 }
 
+@media (max-width: 1100px) {
+    .how {
+        &__inner {
+            .how__item {
+                &-img {
+                    max-width: 65%;
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 900px) {
+    .how {
+        &__inner {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            grid-column-gap: 15px;
+            .how__item {
+                
+            }
+        }
+    }
+}
+
+@media(max-width: 700px) {
+    .how {
+        &__inner {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            gap: 30px;
+            max-width: 80%;
+            margin: 0 auto;
+            margin-bottom: 40px;
+        }
+    }
+}
+
+@media(max-width: 500px) {
+    .how {
+        padding-bottom: 70px;
+        margin-bottom: 70px;
+        &__buttons {
+            flex-direction: column;
+        }
+    }
+}
