@@ -1,5 +1,5 @@
 .services {
-    margin-bottom: 240px;
+    margin-bottom: var(--section-margin);
     &__top {
         display: flex;
         justify-content: space-between;
@@ -27,6 +27,7 @@
             }
             &-title {
                 margin-bottom: 13px;
+                
             }
             &-text {
             }

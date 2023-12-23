@@ -1,6 +1,6 @@
 .request {
     background-color: #F7F9FC;
-    padding: 240px 0;
+    padding: var(--section-margin) 0;
     &__inner {
         display: grid;
         grid-template-columns: 40% 55%;
@@ -87,6 +87,7 @@
                 width: 80%;
                 margin: 0 auto;
                 text-align: center;
+                padding-top: 40px;
                 .request__info-btn {
                     background-color: #fff;
                     margin-bottom: 30px;

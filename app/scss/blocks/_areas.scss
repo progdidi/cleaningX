@@ -1,5 +1,5 @@
 .areas {
-    margin-bottom: 224px;
+    margin-bottom: var(--section-margin);
     &__inner {
         display: flex;
         align-items: center;

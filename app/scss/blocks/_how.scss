@@ -1,7 +1,6 @@
 .how {
     text-align: center;
-    padding-bottom: 240px;
-    margin-bottom: 240px;
+    margin-bottom: var(--section-margin);
     &__title {
         margin-bottom: 21px;
     }
@@ -23,12 +22,14 @@
             }
             &-title {
                 margin-bottom: 16px;
+                font-size: 28px;
+                font-weight: 700;
+                line-height: 36.008px;
             }
             &-text {
             }
         }
     }
-    
     
     &__buttons {
         display: flex;
@@ -86,6 +87,15 @@
     .how {
         &__buttons {
             flex-direction: column;
+        }
+
+        &__inner {
+            .how__item {
+                &-title {
+                    font-size: 22px;
+                    line-height: 28px;
+                }
+            }
         }
     }
 }

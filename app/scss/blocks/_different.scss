@@ -1,6 +1,5 @@
 .different {
-    padding-bottom: 200px;
-    margin-bottom: 240px;
+    margin-bottom: var(--section-margin);
     &__inner {
         display: grid;
         grid-template-columns: 41% 57%;
@@ -47,6 +46,7 @@
             }
             
         }
+
         
     }
     

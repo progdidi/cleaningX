@@ -1,6 +1,6 @@
 .covid {
     color: #fff;
-    margin-bottom: 200px;
+    margin-bottom: var(--section-margin);
     &__inner {
         display: flex;
         align-items: center;
