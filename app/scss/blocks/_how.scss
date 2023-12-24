@@ -79,6 +79,11 @@
             max-width: 80%;
             margin: 0 auto;
             margin-bottom: 40px;
+            .how__item {
+                &-img {
+                    max-width: 45%;
+                }
+            }
         }
     }
 }

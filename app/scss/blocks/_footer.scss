@@ -9,9 +9,19 @@
             max-width: 312px;
             &-title {
                 margin-bottom: 7px;
+                font-size: 28px;
+                font-weight: 700;
+                line-height: 36.008px;
             }
             &-text {
                 margin-bottom: 12px;
+                font-size: 18px;
+                &.bold {
+                    color: var(--dark-blue-color);
+                    font-size: 18px;
+                    font-weight: 700;
+                    line-height: 19.998px;
+                }
             }
             .social__list {
                 display: flex;
@@ -27,6 +37,9 @@
             
             .footer__info-subtitle {
                 margin-bottom: 28px;
+                font-size: 20px;
+                font-weight: 700;
+                line-height: 22px;
             }
             .footer__info-text {
                 margin-top: 8px;
@@ -38,6 +51,9 @@
             .footer__info-link {
                 margin-bottom: 6px;
                 color: var(--blue-color);
+                font-size: 28px;
+                font-weight: 700;
+                line-height: 36.008px;
             }
             .footer__info-btn {
                 margin-top: 18px;

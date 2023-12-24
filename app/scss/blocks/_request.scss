@@ -12,9 +12,16 @@
             }
             .request__info-text {
                 margin-bottom: 12px;
+                max-width: 485px;
             }
             .request__info-link {
                 padding-bottom: 51px;
+                margin-bottom: 55px;
+            }
+
+            .request__link {
+                padding-bottom: 51px;
+                border-bottom: 1px solid var(--light-grey-color);
                 margin-bottom: 55px;
             }
             .request__info-subtitle {
